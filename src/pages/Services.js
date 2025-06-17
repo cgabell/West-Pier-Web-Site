@@ -6,7 +6,7 @@ function Services() {
       {/* Intro Section */}
       <section className="section-alt">
         <div className="content">
-          <h2>Our Services</h2>
+          <h3>Our Services</h3>
           <p>
             We combine creative, technical, and production expertise to deliver full-service game and interactive development.
           </p>

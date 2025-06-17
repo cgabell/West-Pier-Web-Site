@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Roboto, sans-serif;
-  background-color: #1d1d1d;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
@@ -16,8 +16,8 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #1d1d1d;
-  padding: 1rem 2rem;
+  background-color: #2a2a2a;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,7 +36,7 @@ body {
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
-  padding: 0;
+  padding: 0rem;
   margin: 0 auto;
   width: 100%;
 }
@@ -53,26 +53,27 @@ body {
 
 /* Typography */
 h2 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Ensure section goes full width */
 .section-full {
-  background-color:#1d1d1d;
+  background-color:#000000;
   width: 100%;
   padding: 2rem 0;
   margin-bottom: 2rem;
 }
 
 .section-alt {
-  background-color: #759abf;
+  background-color: #b85c7d;
   padding: 2rem;
   margin-bottom: 2rem;
   color: #ffffff;
@@ -100,10 +101,10 @@ h3 {
 }
 
 footer.footer {
-  background-color: #1d1d1d;
+  background-color: #2a2a2a;
   color: #ffffff;
   padding: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .footer-columns {
@@ -156,7 +157,7 @@ a:hover {
 /* Button-style link */
 a.button-link {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0.6rem 1.4rem;
   border: 2px solid #ffffff;
   border-radius: 4px;
@@ -173,7 +174,7 @@ a.button-link:hover {
 
 button.button-link {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 0.6rem 1.4rem;
   border: 2px solid #ffffff;
   border-radius: 4px;
@@ -285,11 +286,11 @@ form {
 }
 
 .footer-label {
-  color: #8d8c8c; /* Light grey for labels */
+  color: #7e7e7e; /* Light grey for labels */
 }
 
 .footer-info {
-  color: #4b4b4b; /* Bright white for values */
+  color: #808080; /* Bright white for values */
 }
 
 .footer-bottom {
@@ -298,11 +299,11 @@ form {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #444;
-  color: #4b4b4b; /* ← Text colour */
+  color: #747474; /* ← Text colour */
 }
 
 .footer-bottom a {
-  color: #4b4b4b; /* ← Link colour */
+  color: #777777; /* ← Link colour */
   text-decoration: none;
   margin: 0 0.4rem;
 }

@@ -19,11 +19,11 @@ function App() {
             <img src={logo} alt="West Pier Studio logo" className="logo" />
           </div>
           <ul className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/studio">Studio</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/careers">Careers</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/" className="button-link">Home</Link></li>
+            <li><Link to="/studio" className="button-link">Studio</Link></li>
+            <li><Link to="/services" className="button-link">Services</Link></li>
+            <li><Link to="/careers" className="button-link">Careers</Link></li>
+            <li><Link to="/contact" className="button-link">Contact</Link></li>
           </ul>
         </nav>
 

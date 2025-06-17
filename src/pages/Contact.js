@@ -6,7 +6,7 @@ function Contact() {
       {/* Contact Message */}
       <section className="section-alt">
         <div className="content">
-          <h2>Let’s Talk</h2>
+          <h3>Let’s Talk</h3>
           <p>Have a project in mind or just want to connect? We’d love to hear from you.</p>
         </div>
       </section>

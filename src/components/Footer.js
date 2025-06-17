@@ -25,7 +25,7 @@ function Footer() {
             <a href="https://www.linkedin.com/company/west-pier-studio/mycompany/" target="_blank" rel="noopener noreferrer">
               <img src="/assets/Linkedin.png" alt="LinkedIn" />
             </a>
-            <a href="https://tiktok.com/@yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@westpierstudio_brighton" target="_blank" rel="noopener noreferrer">
               <img src="/assets/tictoc.png" alt="TikTok" />
             </a>
           </div>
