@@ -10,6 +10,7 @@ const images = [
   "/assets/Banner_06.jpg",
   "/assets/Banner_07.jpg",
   "/assets/Banner_08.jpg",
+  "/assets/Banner_09.jpg"
 ];
 
 function Slideshow() {
