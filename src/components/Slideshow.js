@@ -5,7 +5,11 @@ const images = [
   "/assets/Banner_01.jpg",
   "/assets/Banner_02.jpg",
   "/assets/Banner_03.jpg",
-  "/assets/Banner_04.jpg"
+  "/assets/Banner_04.jpg",
+  "/assets/Banner_05.jpg",
+  "/assets/Banner_06.jpg",
+  "/assets/Banner_07.jpg",
+  "/assets/Banner_08.jpg",
 ];
 
 function Slideshow() {
