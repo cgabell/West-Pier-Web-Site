@@ -9,6 +9,7 @@ const images = [
 ];
 
 function Slideshow() {
+  console.log("Slideshow rendered");
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

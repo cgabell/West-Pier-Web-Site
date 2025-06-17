@@ -5,12 +5,14 @@ import Studio from "./pages/Studio";
 import Services from "./pages/Services";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
-import logo from './Assets/WPS_LOGO.png';
+import Slideshow from "./components/Slideshow";
+import Footer from "./components/Footer";
+import logo from "./Assets/WPS_LOGO.png";
 import "./App.css";
 
 function App() {
   return (
-    <Router basename="/West-Pier-Web-Site">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="container">
         <nav className="navbar">
           <div className="logo-container">
@@ -33,7 +35,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
