@@ -7,12 +7,12 @@ import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Slideshow from "./components/Slideshow";
 import Footer from "./components/Footer";
-import logo from "./Assets/WPS_LOGO.png";
+import logo from "./assets/WPS_LOGO.png";
 import "./App.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/West-Pier-Web-Site">
       <div className="container">
         <nav className="navbar">
           <div className="logo-container">
