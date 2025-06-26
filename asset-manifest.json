@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/West-Pier-Web-Site/static/css/main.54b4a356.css",
-    "main.js": "/West-Pier-Web-Site/static/js/main.2d2143c5.js",
+    "main.css": "/West-Pier-Web-Site/static/css/main.1766aa26.css",
+    "main.js": "/West-Pier-Web-Site/static/js/main.43a4311d.js",
     "static/js/453.0d63de0b.chunk.js": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js",
     "static/media/boardgame02.png": "/West-Pier-Web-Site/static/media/boardgame02.8d0101679cad1cc672d6.png",
+    "static/media/device.png": "/West-Pier-Web-Site/static/media/device.94087ecb3475f85e0e53.png",
     "static/media/backend.png": "/West-Pier-Web-Site/static/media/backend.b918edf486a1d6e0c29c.png",
     "static/media/chair02.png": "/West-Pier-Web-Site/static/media/chair02.f9968b23a59d3d4c13e2.png",
     "static/media/weoffer.png": "/West-Pier-Web-Site/static/media/weoffer.8ac20016e170a17db229.png",
-    "static/media/device.png": "/West-Pier-Web-Site/static/media/device.13479d41e36bbba11052.png",
     "static/media/oldhouse.png": "/West-Pier-Web-Site/static/media/oldhouse.f6fd7a09558812a78a07.png",
     "static/media/licence.png": "/West-Pier-Web-Site/static/media/licence.0bc7dcc5f0725c977763.png",
     "static/media/danny.png": "/West-Pier-Web-Site/static/media/danny.d0145021b382d40d7773.png",
@@ -48,12 +48,12 @@
     "static/media/wpg.png": "/West-Pier-Web-Site/static/media/wpg.adabd8fba092701211dd.png",
     "static/media/sst.png": "/West-Pier-Web-Site/static/media/sst.3a9a08b5d7d3543a7cd0.png",
     "index.html": "/West-Pier-Web-Site/index.html",
-    "main.54b4a356.css.map": "/West-Pier-Web-Site/static/css/main.54b4a356.css.map",
-    "main.2d2143c5.js.map": "/West-Pier-Web-Site/static/js/main.2d2143c5.js.map",
+    "main.1766aa26.css.map": "/West-Pier-Web-Site/static/css/main.1766aa26.css.map",
+    "main.43a4311d.js.map": "/West-Pier-Web-Site/static/js/main.43a4311d.js.map",
     "453.0d63de0b.chunk.js.map": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b4a356.css",
-    "static/js/main.2d2143c5.js"
+    "static/css/main.1766aa26.css",
+    "static/js/main.43a4311d.js"
   ]
 }
