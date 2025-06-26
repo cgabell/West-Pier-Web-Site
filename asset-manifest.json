@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/West-Pier-Web-Site/static/css/main.54b4a356.css",
-    "main.js": "/West-Pier-Web-Site/static/js/main.c327f3cf.js",
+    "main.js": "/West-Pier-Web-Site/static/js/main.f0f79922.js",
     "static/js/453.0d63de0b.chunk.js": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js",
+    "static/media/backend.png": "/West-Pier-Web-Site/static/media/backend.b918edf486a1d6e0c29c.png",
     "static/media/chair02.png": "/West-Pier-Web-Site/static/media/chair02.f9968b23a59d3d4c13e2.png",
     "static/media/weoffer.png": "/West-Pier-Web-Site/static/media/weoffer.8ac20016e170a17db229.png",
     "static/media/device.png": "/West-Pier-Web-Site/static/media/device.13479d41e36bbba11052.png",
@@ -36,7 +37,6 @@
     "static/media/Banner_08.jpg": "/West-Pier-Web-Site/static/media/Banner_08.7f15f8bb20df3df6d71a.jpg",
     "static/media/pergolaplanner.png": "/West-Pier-Web-Site/static/media/pergolaplanner.dddb1d4c8a8bcc8e7249.png",
     "static/media/fenceplanner.png": "/West-Pier-Web-Site/static/media/fenceplanner.6ec94b44e42a8c9ddfc7.png",
-    "static/media/backend.png": "/West-Pier-Web-Site/static/media/backend.a1dcb7db1d415b181aa7.png",
     "static/media/Banner_01.jpg": "/West-Pier-Web-Site/static/media/Banner_01.57334dde5699f34c261b.jpg",
     "static/media/seagul2.png": "/West-Pier-Web-Site/static/media/seagul2.ac60404baac9730ec210.png",
     "static/media/Banner_02.jpg": "/West-Pier-Web-Site/static/media/Banner_02.679190b8d5aeeafecc66.jpg",
@@ -49,11 +49,11 @@
     "static/media/sst.png": "/West-Pier-Web-Site/static/media/sst.3a9a08b5d7d3543a7cd0.png",
     "index.html": "/West-Pier-Web-Site/index.html",
     "main.54b4a356.css.map": "/West-Pier-Web-Site/static/css/main.54b4a356.css.map",
-    "main.c327f3cf.js.map": "/West-Pier-Web-Site/static/js/main.c327f3cf.js.map",
+    "main.f0f79922.js.map": "/West-Pier-Web-Site/static/js/main.f0f79922.js.map",
     "453.0d63de0b.chunk.js.map": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54b4a356.css",
-    "static/js/main.c327f3cf.js"
+    "static/js/main.f0f79922.js"
   ]
 }
