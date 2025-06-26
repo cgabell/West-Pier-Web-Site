@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/West-Pier-Web-Site/static/css/main.54b4a356.css",
-    "main.js": "/West-Pier-Web-Site/static/js/main.f0f79922.js",
+    "main.js": "/West-Pier-Web-Site/static/js/main.2d2143c5.js",
     "static/js/453.0d63de0b.chunk.js": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js",
+    "static/media/boardgame02.png": "/West-Pier-Web-Site/static/media/boardgame02.8d0101679cad1cc672d6.png",
     "static/media/backend.png": "/West-Pier-Web-Site/static/media/backend.b918edf486a1d6e0c29c.png",
     "static/media/chair02.png": "/West-Pier-Web-Site/static/media/chair02.f9968b23a59d3d4c13e2.png",
     "static/media/weoffer.png": "/West-Pier-Web-Site/static/media/weoffer.8ac20016e170a17db229.png",
@@ -10,7 +11,6 @@
     "static/media/oldhouse.png": "/West-Pier-Web-Site/static/media/oldhouse.f6fd7a09558812a78a07.png",
     "static/media/licence.png": "/West-Pier-Web-Site/static/media/licence.0bc7dcc5f0725c977763.png",
     "static/media/danny.png": "/West-Pier-Web-Site/static/media/danny.d0145021b382d40d7773.png",
-    "static/media/boardgame02.png": "/West-Pier-Web-Site/static/media/boardgame02.7ca8f2f6127a98a171f4.png",
     "static/media/casino.png": "/West-Pier-Web-Site/static/media/casino.bede6e8b326a13a8b6fa.png",
     "static/media/dom.png": "/West-Pier-Web-Site/static/media/dom.afb98f2e08a1a0cfcd5a.png",
     "static/media/Annemarie.png": "/West-Pier-Web-Site/static/media/Annemarie.1a3d96ca498e6fb6c21e.png",
@@ -49,11 +49,11 @@
     "static/media/sst.png": "/West-Pier-Web-Site/static/media/sst.3a9a08b5d7d3543a7cd0.png",
     "index.html": "/West-Pier-Web-Site/index.html",
     "main.54b4a356.css.map": "/West-Pier-Web-Site/static/css/main.54b4a356.css.map",
-    "main.f0f79922.js.map": "/West-Pier-Web-Site/static/js/main.f0f79922.js.map",
+    "main.2d2143c5.js.map": "/West-Pier-Web-Site/static/js/main.2d2143c5.js.map",
     "453.0d63de0b.chunk.js.map": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54b4a356.css",
-    "static/js/main.f0f79922.js"
+    "static/js/main.2d2143c5.js"
   ]
 }
