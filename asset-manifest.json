@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/West-Pier-Web-Site/static/css/main.9e98ff51.css",
-    "main.js": "/West-Pier-Web-Site/static/js/main.a7efdcaa.js",
+    "main.js": "/West-Pier-Web-Site/static/js/main.aa218b92.js",
     "static/js/453.0d63de0b.chunk.js": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js",
     "static/media/boardgame02.png": "/West-Pier-Web-Site/static/media/boardgame02.8d0101679cad1cc672d6.png",
     "static/media/device.png": "/West-Pier-Web-Site/static/media/device.94087ecb3475f85e0e53.png",
@@ -51,16 +51,18 @@
     "static/media/wpg.png": "/West-Pier-Web-Site/static/media/wpg.adabd8fba092701211dd.png",
     "static/media/overlay1.png": "/West-Pier-Web-Site/static/media/overlay1.02c99ff93682087c4d4b.png",
     "static/media/overlay3.png": "/West-Pier-Web-Site/static/media/overlay3.91d39357599927bd4588.png",
+    "static/media/VR copy.png": "/West-Pier-Web-Site/static/media/VR copy.b39b4f24f1476b02865d.png",
     "static/media/title-bg.png": "/West-Pier-Web-Site/static/media/title-bg.8551afc01a9b45f48716.png",
+    "static/media/CHIPS.png": "/West-Pier-Web-Site/static/media/CHIPS.8adf6ee5c9804d956d62.png",
     "static/media/headbar.png": "/West-Pier-Web-Site/static/media/headbar.ef8147eed27c7ba83ac8.png",
     "static/media/sst.png": "/West-Pier-Web-Site/static/media/sst.3a9a08b5d7d3543a7cd0.png",
     "index.html": "/West-Pier-Web-Site/index.html",
     "main.9e98ff51.css.map": "/West-Pier-Web-Site/static/css/main.9e98ff51.css.map",
-    "main.a7efdcaa.js.map": "/West-Pier-Web-Site/static/js/main.a7efdcaa.js.map",
+    "main.aa218b92.js.map": "/West-Pier-Web-Site/static/js/main.aa218b92.js.map",
     "453.0d63de0b.chunk.js.map": "/West-Pier-Web-Site/static/js/453.0d63de0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e98ff51.css",
-    "static/js/main.a7efdcaa.js"
+    "static/js/main.aa218b92.js"
   ]
 }
