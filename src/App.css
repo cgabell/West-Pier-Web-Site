@@ -1,91 +1,102 @@
 /* Base Reset */
+/* Base Reset and Global Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Roboto, sans-serif;
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: #f2dec6;
+  color: #ffffff; /* Set to a readable color */
 }
 
 /* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 1rem;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #2a2a2a;
-  padding: 2rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: inherit;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.navbar .logo {
-  height: auto;
-  max-height: 80px;
-  object-fit: contain;
-  margin-bottom: 2rem;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  padding: 0rem;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.navbar a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-/* Typography */
 h2 {
   font-size: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
+.title {
+  color: #a05050; /* or any color you want */
+}
+
 /* Ensure section goes full width */
 .section-full {
-  background-color:#000000;
+  background-color:#51ae92;
   width: 100%;
   padding: 2rem 0;
   margin-bottom: 2rem;
 }
 
 .section-alt {
-  background-color: #b85c7d;
+  background-color: #39728b;
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #ffffff;
   border-radius: 4px;
 }
 
 .section-alt2 {
-  background-color: #2a2a2a;
+  background-color: #4e678a;
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #ffffff;
   border-radius: 4px;
+}
+
+.section-alt3 {
+  background-color: #e68e6b;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.section-alt4 {
+  background-color: #51ae92;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.section-alt5 {
+  background-color: #d7b274;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.section-alt6 {
+  background-color: #6eb8ab;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside; /* Optional: move bullets inline with text */
 }
 
 .placeholder {
@@ -94,17 +105,17 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6b7280;
+  color: #636873;
   font-style: italic;
   border-radius: 8px;
   margin-bottom: 2rem;
 }
 
 footer.footer {
-  background-color: #2a2a2a;
+  background-color: #94887a;
   color: #ffffff;
   padding: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .footer-columns {
@@ -157,10 +168,10 @@ a:hover {
 /* Button-style link */
 a.button-link {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.4rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem 1rem;
   border: 2px solid #ffffff;
-  border-radius: 4px;
+  border-radius: 7px;
   text-decoration: none;
   font-weight: 500;
   color: #ffffff;
@@ -263,13 +274,13 @@ form {
 }
 
 .social-icons img {
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   transition: opacity 0.2s ease-in-out;
 }
 
 .social-icons img:hover {
-  opacity: 0.8;
+  opacity: 0.4;
 }
 
 .profiles-grid {
@@ -286,11 +297,11 @@ form {
 }
 
 .footer-label {
-  color: #7e7e7e; /* Light grey for labels */
+  color: #ffffff; /* Light grey for labels */
 }
 
 .footer-info {
-  color: #808080; /* Bright white for values */
+  color: #ffffff; /* Bright white for values */
 }
 
 .footer-bottom {
@@ -299,11 +310,11 @@ form {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid #444;
-  color: #747474; /* ← Text colour */
+  color: #ffffff; /* ← Text colour */
 }
 
 .footer-bottom a {
-  color: #777777; /* ← Link colour */
+  color: #ffffff; /* ← Link colour */
   text-decoration: none;
   margin: 0 0.4rem;
 }
@@ -311,4 +322,493 @@ form {
 .footer-bottom a:hover {
   text-decoration: underline;
   color: #ffffff; /* ← Link hover colour */
+}
+
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Default layout: 2/3 left, 1/3 right */
+/* Optional: Center text vertically in .column-left */
+.two-column .column-left {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-column .column-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Reverse layout: 1/3 left, 2/3 right */
+.two-column.reverse .column-left {
+  flex: 1;
+}
+
+.two-column.reverse .column-right {
+  flex: 2;
+}
+
+/* Optional placeholder box styling */
+.placeholder-box {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px dashed #fff;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .column-left,
+  .column-right {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.responsive-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center; /* Vertically center image and text */
+  gap: 1rem;            /* Space between image and text */
+  margin-bottom: 2rem;  /* Optional spacing between profiles */
+}
+
+.profile-image {
+  width: 80px;          /* Adjust as needed */
+  height: auto;
+  border-radius: 0%;   /* Optional: for circular image */
+}
+
+.profile-text {
+  flex: 1;
+}
+
+/* Projects Split Sections */
+
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  min-height: 400px; /* Optional if you want some vertical space */
+}
+
+.split-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-two-thirds {
+  flex: 2;
+  overflow: hidden;
+}
+
+.image-two-thirds img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text-third {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e; /* Optional: match your theme */
+  padding: 2rem;
+  color: #fff;
+  text-align: left;
+}
+
+.text-content {
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .split-section,
+  .split-section.reverse {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-two-thirds img {
+    height: auto;
+  }
+
+  .text-third {
+    padding: 1.5rem;
+  }
+}
+
+.section-light {
+  background-color: #f5f5f5; /* light grey or whatever you prefer */
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: #000; /* adjust if needed for contrast */
+}
+
+.section-dark {
+  background-color: #eb6767;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.text-light {
+  background-color: #3d4d55;
+  color: #ffffff;
+}
+
+.text-dark {
+  background-color: #f3b041;
+  color: #fff;
+}
+
+.text-medium {
+  background-color: #8fcb5d;
+  color: #fff;
+}
+
+.text-medium1 {
+  background-color: #4faaba;
+  color: #fff;
+}
+
+/* Remove unintended left/right spacing from content wrapper */
+.two-column .column-left .content {
+  padding: 0;
+  margin: 0;
+}
+
+/* Optional: refine the stacked list spacing */
+.stacked-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.section-alt2.no-padding .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+ /* ===== NAVBAR STYLES ===== */
+.navbar {
+  background-color: #51ae92;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+/* Wrapper to contain logo and nav-links */
+.nav-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column; /* stacks logo above nav links (good for mobile) */
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Logo container */
+.logo-container {
+  flex-shrink: 0;
+  margin-bottom: 3rem; /* spacing between logo and nav */
+}
+
+/* Logo image */
+.navbar .logo {
+  max-height: 60px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ===== NAV LINKS ===== */
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Individual nav item */
+.nav-links li {
+  padding: 0 0.01rem; /* optional – could be removed or adjusted */
+}
+
+/* Link styles */
+.navbar a,
+.nav-links li .button-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none !important;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 0.856);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    z-index: 1000;
+    align-items: center;
+    backdrop-filter: blur(4px);
+  }
+
+  .nav-links.open {
+    display: flex !important;
+  }
+
+  .nav-links li {
+    width: auto;
+    text-align: center;
+    margin-bottom: 0.1rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+    width: auto;
+    padding: 0;
+    opacity: 1;
+  }
+
+  .nav-links li {
+    margin-bottom: 0;
+  }
+}
+
+/* Background Images */
+
+/* Base overlay setup for any section */
+.overlay-section {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+/* Two-column layout still stacks nicely on mobile */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* Wrapper fills the section */
+.overlay-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Overlay image stretches to fill section */
+.section-overlay {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* changed from cover */
+  object-position: center;
+}
+
+/* Content stays above overlay */
+.overlay-section {
+  position: relative;
+  overflow: hidden;
+  display: block; /* or flex, as needed */
+}
+
+/* Optional: Custom overlays for variation */
+.overlay-1 .section-overlay,
+.overlay-2 .section-overlay,
+.overlay-3 .section-overlay {
+  /* You can override opacity or other styles here per overlay */
+  opacity: 1;
+}
+
+/* Ensure text/content stays above overlays */
+.overlay-section .content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .two-column .column-left,
+  .two-column .column-right {
+    flex: unset;
+    width: 100%;
+  }
+}
+
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-bottom {
+  padding-top: 1rem;
+  background-color: inherit; /* ensures consistent fill */
+  border-top: none; /* explicitly kill any accidental border */
+}
+
+.title-banner {
+  background-image: url('./assets/title-bg.png'); /* replace with actual path */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title-banner h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff; /* Or whatever contrasts best with your image */
+}
+
+.shadow-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5); /* shadow layer */
+  color: var(--title-color, #ffffff); /* default white, customizable */
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); /* adjust for subtle or bold effect */
+}
+
+/* Base link wrapper */
+.image-button-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Shared button image styles */
+.button-image {
+  width: 110px;        /* Fixed width, adjust as needed */
+  height: auto;
+  display: block;
+  max-width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.button-image:hover {
+  transform: scale(1.05);
+}
+
+/* Centered text over image */
+.image-button-link span {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white; /* Default text color */
+}
+
+/* Modifier: green button (e.g. .image-button-link.green) */
+.image-button-link.green span {
+  color: rgb(255, 255, 255); /* Better contrast for green background */
 }

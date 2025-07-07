@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://cgabell.github.io/West-Pier-Web-Site",
   "dependencies": {
-    "gh-pages": "^6.3.0",
+    "@emailjs/browser": "^4.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.6.2",
@@ -36,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
